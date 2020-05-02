@@ -29,3 +29,8 @@ output "vpc_id" {
 variable "AWS_REGION" {
   default = "us-west-2"
 }
+
+variable "rt_depends_on" {
+  type    = any
+  default = null
+}

@@ -15,5 +15,5 @@ variable "env" {
 }
 
 variable "AWS_REGION" {
-  default = "us-east-1"
+  default = "us-west-2"
 }
