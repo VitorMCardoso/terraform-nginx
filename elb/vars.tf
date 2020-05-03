@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "The AWS region to create things in."
-  default     = "us-west-2"
+  default = "us-west-2"
 }
 
 variable "aws_amis" {
@@ -23,6 +23,10 @@ variable "INSTANCE_USERNAME" {
 }
 
 variable "elb_depends_on" {
-  type    = any
+  type = any
   default = null
+}
+
+variable "quantidade" {
+  default = 2
 }

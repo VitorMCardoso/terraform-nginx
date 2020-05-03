@@ -8,6 +8,7 @@ module "rt-call" {
 
 module "elb-call" {
   source = "./elb"
+  quantidade = 1
 }
 
 module "s3-fiap" {
